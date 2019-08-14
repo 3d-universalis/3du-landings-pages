@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": "lp.3duniversalis.com",
+  "routes": [{"src": "/(.*)", "dest": "/build/$1"}],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }]
+}
