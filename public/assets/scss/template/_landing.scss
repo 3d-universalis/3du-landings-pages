@@ -6,7 +6,7 @@
 .landing-page-wrapper {
 
     .landing-hero-bg {
-        background-image: url("/assets/images/landing/3dprinter-bg.jpg");
+        background-image: url("/assets/images/landing/ship-bg.jpg");
     }
     .header-section {
         .logo {
@@ -531,8 +531,25 @@
         margin-top: 0;
         padding: 6px 35px;
         text-transform: uppercase;
+        color: white ; 
+        cursor: pointer;
     }
 
+    #contact-status {
+        margin: 20px 0 20px 0;
+        display: none;
+    }
+    @media screen and (max-width: 445px) {
+        .buy-btn {
+            padding: 6px 24px;
+        }
+       }
+
+       @media screen and (max-width: 400px) {
+        .buy-btn {
+            padding: 6px 10px;
+        }
+       }
     .stick .buy-btn {
         border: 2px solid $theme-color;
         color: $theme-color;
@@ -545,6 +562,16 @@
         color: #ffffff;
     }
 
+    .header-number {
+        color: #ffffff;
+        padding: 10px;
+        font-family: $font-1;
+        font-weight: 600;
+    }
+
+    .stick .header-number {
+        color: #000000;
+    }
 
     .hero-section {
         padding: 300px 0 250px;
@@ -562,7 +589,7 @@
     }
 
     .hero-content h1 strong {
-        font-size: 50px;
+        font-size: 73px;
         font-weight: 700;
         margin-bottom: 30px;
         display: block;
@@ -935,7 +962,7 @@
 
     /* small mobile :320px. */
 
-    @media only screen and (max-width: 479px) {
+    @media only screen and (max-width: 1px) {
 
         .buy-btn {
             font-size: 11px;

@@ -5,12 +5,6 @@ import ReactDOM from 'react-dom';
 // Create Import File
 import './index.scss';
 import QuoteLanding from './base-landing/QuoteLanding';
-import HomeOlive from './HomeOlive';
-import HomeHorizontal from './HomeHorizontal';
-import BlogGrid from './blog/BlogGrid';
-
-import BlogTwoColumn from './blog/BlogTwoColumn';
-import BlogDetails from './blog/BlogDetails';
 
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';

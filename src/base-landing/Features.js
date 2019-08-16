@@ -18,8 +18,8 @@ class Features extends Component{
                 <div className="feature-section section bg-gray pt--150 pb--100">
                     <div className="container">
                         <div className="row">
-                            <div className="section-title col-12 mb--70">
-                                <h1>Our Features</h1>
+                            <div className="section-title text-center col-12 mb--70">
+                                <h1>Our Services</h1>
                             </div>
                             {featureDatalist}
                         </div>

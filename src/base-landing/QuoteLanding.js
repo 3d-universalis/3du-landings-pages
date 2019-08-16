@@ -1,26 +1,17 @@
 import React, { Component } from "react";
 import Features from './Features';
-import Whitepapers from './Suggestions';
+import Footer from './Footer';
 
 class QuoteLanding extends Component{
     render(){
 
-        let features = [
-            {featureIconName: 'icon-genius', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
-            {featureIconName: 'icon-mobile', featureTitle: '3D Printing', featureDescription: 'Company that offers design and build services for you from initial sketches to the final production Design repeatable growth.'},
-            {featureIconName: 'icon-profile-male', featureTitle: 'Post-processing', featureDescription: 'Ready to use on arrival, post-processing is also available for most material. Post-processing services can include sanding, polishing, painting, centrifugal polishing, bead blasting or assembly.'},
-            {featureIconName: 'icon-beaker', featureTitle: 'Designs', featureDescription: 'We accept all the technical plans and files already available. If required, we can assist in the CAD file designing process for model validation, either by the creation and/or modification of product files.'},
-            {featureIconName: 'icon-puzzle', featureTitle: 'Metrology', featureDescription: 'We can duplicate existing parts with 3D scanning in order to create the needed CAD files.'},
-            {featureIconName: 'icon-puzzle', featureTitle: 'Fast Shipping', featureDescription: 'Fast shipping with insurance and the possibility to drop-ship directly to your customer.'},
-        ];
-
-
-        let whitePapersGlobal = [
-            {imgUrl: '//s3.envato.com/files/186369241/preview.__large_preview.png', whitePaperLink:'/whitepaper1', suggestionTitle: 'Automotive - Lorem Ipsum Oh yeah'},
-
-            {imgUrl: '//s3.envato.com/files/223832857/preview.__large_preview.jpg', whitePaperLink:'/whitepaper2', suggestionTitle: 'Aeronautic - Oh yeah Lorem Ipsum'},
-
-            {imgUrl: '//s3.envato.com/files/255284479/01_preview_sotare.__large_preview.png', whitePaperLink:'/whitepaper3', suggestionTitle: 'Medical - Oh Landing Lorem Ipsum 4'}
+        let services = [
+            {featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
+            {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Duplicate existing parts and products with 3D scanning technology in order to create your CAD files and virtual inventory.'},
+            {featureIconName: 'icon-tools-2', featureTitle: 'Post-processing', featureDescription: 'Ready to use on arrival, post-processing is available for most material, further optimizing production to your needs.'},
+            {featureIconName: 'icon-tools', featureTitle: 'Designing', featureDescription: 'From existing technical plans or files already available, we offer model validation and assistance in creation and/or modification of CAD files.'},
+            {featureIconName: 'icon-circle-compass', featureTitle: 'Metrology', featureDescription: 'Duplicate existing parts and products with 3D scanning in order to create your CAD files and virtual inventory.'},
+            {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Insured fast shipping with the possibility to drop-ship directly to your customer.'},
         ];
 
         return(
@@ -39,7 +30,7 @@ class QuoteLanding extends Component{
                             </div>
                             {/* Logo */}
                             <div className="col-6 text-right">
-                                <a className="buy-btn" href="/">Request a quote</a>
+                                <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Request a quote</a>
                             </div>
                         </div>
                         </div>
@@ -51,9 +42,8 @@ class QuoteLanding extends Component{
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
-                                <h1><strong>From product development to industrial 3D manufacturing, scaled to fit your business.
-</strong>Your 3D Manufacturing Partner</h1>
-                                <a className="buy-btn" href="#demo">Get a Quote</a>
+                                <h1><strong>Your Manufacturing Partner</strong>Engineering tomorrow's industry through today's innovation.</h1>
+                                <a href="javascript:;" className="buy-btn goToContact">Get a Quote</a>
                             </div>
                         </div>
                         </div>
@@ -61,20 +51,26 @@ class QuoteLanding extends Component{
                     {/* Hero End */}
 
                     {/* Features Section Start */}
-                    <Features features = {features} />
+                    <Features features = {services} />
                     {/* Features Section End */}
-
-                    {/* Suggestions HTML Section Start */}
-                    <Whitepapers background="" suggestions = {whitePapersGlobal} />
-                    {/* Suggestions HTML Section End */}
-
+                    <Footer horizontal="horizontal" />
                     {/* Footer Section Start */}
-                    <div className="footer-section section pt--65 pb--50 overlay bg-img" data-bg="assets/img/landing/3dprinter-bg.jpg">
+                    <div className="footer-section section pt--65 pb--50 overlay bg-img" id="contact" data-bg="assets/img/landing/3dprinter-bg.jpg">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <h1>Shape your revolution</h1>
-                                    <a className="buy-btn float-right" href="//themeforest.net/user/hastech/portfolio">Get a quote now</a>
+                                    <a className="buy-btn float-right goToContact" href="javascript:;">Contact Us</a>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-8 offset-lg-2 col-xl-4 offset-xl-4">
+                                    <div className="footer-links text-center">
+                                        <a href="https://www.linkedin.com/company/18952599"><i className="zmdi zmdi-linkedin"></i></a>
+                                    </div>
+                                    <div className="footer-text text-center">
+                                        <span>Copyright © 2019 - <a href="https://3Duniversalis.com">3D Universalis</a></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

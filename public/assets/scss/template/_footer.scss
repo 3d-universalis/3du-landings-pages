@@ -58,7 +58,7 @@
 
 .contact-inner {
     .title {
-        color: #ffffff;
+        color: #000000;
         font-size: 28px;
         font-weight: 800;
         line-height: 20px;
@@ -72,10 +72,10 @@
         margin-bottom: 15px;
         input {
             background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-            border: 1px solid #ffffff;
+            border: 1px solid #000000;
             border-radius: 8px;
             box-shadow: none;
-            color: #cccccc;
+            color: #000;
             height: 42px;
             margin-bottom: 3px;
             padding: 8px 17px;
@@ -84,27 +84,27 @@
             font-size: 14px;
             line-height: 1.42857143;
             @include placeholder {
-                color: #fff;
+                color: rgb(100, 100, 100);
             }
         }
         textarea {
             height: 99px;
             resize: none;
             background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-            border: 1px solid #ffffff;
+            border: 1px solid #000000;
             border-radius: 8px;
             box-shadow: none;
-            color: #cccccc;
+            color: #000000;
             margin-bottom: 3px;
             padding: 8px 17px;
             @include placeholder {
-                color: #fff;
+                color: rgb(100, 100, 100);
             }
         }
         .submite-button {
-            background-color: #7a9757;
+            background-color: #000;
             border-radius: 7px;
-            color: #ffffff;
+            color: #fff;
             font-family: $heading-font;
             height: 44px;
             margin-top: 21px;
@@ -114,8 +114,7 @@
             width: 100%;
             border: 0;
             &:hover {
-                background-color: #fff;
-                color: #2d3e50;
+                background-color: #ed087d;
             }
         }
     }
@@ -128,9 +127,9 @@
     Contact Address 
 ========================*/
 .contact-icon {
-    background-color: #7a9757;
+    background-color: #ed087d;
     border-radius: 21px 21px 0;
-    color: #ffffff;
+    color: #000000;
     display: inline-table;
     float: left;
     height: 54px;
@@ -181,7 +180,7 @@
 .newsletter{
     .title{
         margin-bottom: 23px;
-        color: #ffffff;
+        color: #000000;
         font-size: 28px;
         font-weight: 800;
         line-height: 20px;
@@ -198,7 +197,7 @@
 }
 .newsletter-content>input {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-radius: 9px;
     color: #a3a3a3;
     font-family: $heading-font;
@@ -212,7 +211,7 @@
 .newsletter-content{
     input{
         @include placeholder{
-            color: #fff;
+            color: #000;
         }
     }
 }
@@ -244,8 +243,8 @@
 }
 
 .newsletter-content .button:hover {
-    background-color: #7a9757;
-    color: #ffffff;
+    background-color: #ed087d;
+    color: #000000;
 }
 
 
@@ -260,7 +259,7 @@ Footer Links
 .footer-links a {
     border: 1px solid #fafbfb;
     border-radius: 100%;
-    color: #ffffff;
+    color: #fff;
     display: inline-table;
     font-size: 20px;
     height: 36px;
@@ -276,8 +275,8 @@ Footer Links
 }
 
 .footer-links a:hover {
-    background-color: #7a9757;
-    border-color: #7a9757;
+    background-color: #ff047e;
+    border-color: #ff047e;
 }
 
 .footer-links {
@@ -297,8 +296,8 @@ Footer Links
 }
 
 .footer-text span a:hover {
-    border-bottom: 1px solid #7a9757;
-    color: #7a9757;
+    border-bottom: 1px solid #ff047e;
+    color: #ff047e;
 }
 
 .footer-area{

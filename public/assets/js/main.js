@@ -150,9 +150,68 @@ $(document).ready(function () {
         onePage: true,
     });
 
+//  Megatron contact button, scroll to position.
+$(".goToContact").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contact-us").offset().top - 175
+    }, 1000);
+  });
+  
+  // CONTACT US FORM 
+  var formButton = document.querySelector("#contact-form-submit");
 
+  function sendData() {
+    var XHR = new XMLHttpRequest();
+
+    // Bind the FormData object and the form element
+    var FD = new FormData(form);
+
+    // Transform formdata to an Array
+    var formObject = {};
+    FD.forEach((value, key) => {formObject[key] = value});
+
+    var alertField = document.getElementById("contact-status");
+
+    // Define what happens on successful data submission
+    XHR.addEventListener("load", function(event) {    
+      var responseJSON = JSON.parse(event.target.response)
+      if(responseJSON && responseJSON.status == "success"){
+        alertField.className = "alert alert-success";
+        alertField.innerHTML = responseJSON.message;
+        alertField.style.display = "block"
+      }else{
+        displayErrorAlert();
+      }
+      formButton.removeAttribute("disabled");
+    });
+
+    // Define what happens in case of error
+    XHR.addEventListener("error", function(event) {
+      displayErrorAlert();
+      formButton.removeAttribute("disabled");
+    });
+
+    function displayErrorAlert(){
+      alertField.className = "alert alert-warning";
+      alertField.innerHTML = "Oups, something went wrong.</br> Contact us by email : <a href='mailto:info@3duniversalis'>info@3duniversalis.com</a> ";
+      alertField.style.display = "block"
+    }
+
+    XHR.open("POST", "https://2boulh6ez0.execute-api.us-east-1.amazonaws.com/prod");
+    XHR.send(JSON.stringify(formObject));
+  }
+ 
+  // Access the form element...
+  var form = document.getElementById("contact-form");
+
+  // ...and take over its submit event.
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    formButton.setAttribute("disabled", "disabled");
+    sendData();
+  });
+  // End Contact Us Form
 });
-
 
 
 

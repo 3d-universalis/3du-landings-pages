@@ -72,7 +72,7 @@ $md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
 $sm-layout:'only screen and (max-width: 767px)';
 $large-mobile: 'only screen and (max-width: 575px)';
 /* container 450px*/
-$small-mobile: 'only screen and (max-width: 479px)';
+$small-mobile: 'only screen and (max-width: 1px)';
 /* container 300px*/
 
 @media #{$large-mobile} {

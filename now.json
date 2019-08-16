@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "lp.3duniversalis.com",
+  "alias": "naval.3duniversalis.com",
   "routes": [{"src": "/(.*)", "dest": "/build/$1"}],
   "builds": [
     {
