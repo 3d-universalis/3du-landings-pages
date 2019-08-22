@@ -24,7 +24,7 @@ class QuoteLanding extends Component{
                         <div className="row justify-content-between align-items-center">
                             {/* Logo */}
                             <div className="logo col-6 text-left">
-                                <a href="/">
+                                <a href="https://3duniversalis.com">
                                     <img src="assets/images/landing/logo.png" className="img-fluid" alt="" />
                                     <img src="assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
                             </div>
