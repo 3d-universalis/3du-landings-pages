@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 class QuoteLanding extends Component{
     render(){
-
+        
         let services = [
             {featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
             {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Duplicate existing parts and products with 3D scanning technology in order to create your CAD files and virtual inventory.'},
@@ -38,7 +38,7 @@ class QuoteLanding extends Component{
                     {/* Header End */}
 
                     {/* Start Hero */}
-                    <div className="hero-section section overlay landing-hero-bg">
+                    <div className="hero-section section overlay landing-hero-bg" style={{ backgroundImage: "url(" + this.props.landingDetails.bgImgPath + ")"}}>
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
