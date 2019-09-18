@@ -25,8 +25,8 @@ class QuoteLanding extends Component{
                             {/* Logo */}
                             <div className="logo col-6 text-left">
                                 <a href="https://3duniversalis.com">
-                                    <img src="assets/images/landing/logo.png" className="img-fluid" alt="" />
-                                    <img src="assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
+                                    <img src="/assets/images/landing/logo.png" className="img-fluid" alt="" />
+                                    <img src="/assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
                             </div>
                             {/* Logo */}
                             <div className="col-6 text-right">
@@ -49,7 +49,15 @@ class QuoteLanding extends Component{
                         </div>
                     </div>
                     {/* Hero End */}
-
+                    <div>
+                    <div className="feature-section section bg-gray pt--50">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12" dangerouslySetInnerHTML={{__html:  this.props.landingDetails.industryDetails}}/>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                     {/* Features Section Start */}
                     <Features features = {services} />
                     {/* Features Section End */}
