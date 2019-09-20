@@ -7,28 +7,28 @@ class Footer extends Component {
                 <div className="col-lg-12 col-xl-12 offset-xl-12">
                     <div className="contact-inner">
                         <div className="section-title text-center col-12 mb--70">
-                                    <h1>Contact us</h1>
+                                    <h1>Nous Contactez</h1>
                         </div>
                         <form className="contact-form" id="contact-form">
-                            Name
+                            Nom
                             <div className="input-box">
-                                <input name="name" type="text" placeholder="John Smith"/>
+                                <input name="name" type="text" placeholder="Jean Tremblay"/>
                             </div>
-                            Email
+                            Courriel
                             <div className="input-box">
-                                <input name="email" type="text" placeholder="name@exemple.com"/>
+                                <input name="email" type="text" placeholder="nom@exemple.com"/>
                             </div>
-                            Phone #
+                            Téléphone #
                             <div className="input-box">
-                            <input name="phone" type="phone" placeholder="+1 111 222 3333"/>
+                            <input name="phone" type="phone" placeholder="+1 514 123 4567"/>
                             </div>
                             Message
                             <div className="input-box">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Partagez-nous en davantage sur vous et votre projet et faites-nous part de vos questions. Un expert de notre équipe vous contactera d'ici la prochaine journée ouvrable."></textarea>
                             </div>
 
                             <div className="input-box">
-                                <button className="submite-button" id="contact-form-submit" type="submit">Submit</button>
+                                <button className="submite-button" id="contact-form-submit" type="submit">Envoyer</button>
                             </div>
                             <div id="contact-status" className="alert alert-success" role="alert"></div>
                         </form>

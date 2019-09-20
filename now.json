@@ -1,6 +1,14 @@
 {
   "version": 2,
-  "routes": [{"src": "/(.*)", "dest": "/build/$1"}],
+  "name": "landing-pages",
+  "alias": ["lp.3duniversalis.com"],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "routes": [
+    {"src": "/en/architecture", "dest": "index.html"},
+    {"src": "/fr/architecture", "dest": "index.html"}],
+  
   "builds": [
     {
       "src": "package.json",

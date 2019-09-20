@@ -42,7 +42,7 @@ class QuoteLanding extends Component{
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
-                                <h1><strong>Your Manufacturing Partner</strong>Engineering tomorrow's industry through today's innovation.</h1>
+                                <h1><strong class="capitalize">Your Manufacturing Partner</strong>Engineering tomorrow's industry through today's innovation.</h1>
                                 <a href="javascript:;" className="buy-btn goToContact">Get a Quote</a>
                             </div>
                         </div>

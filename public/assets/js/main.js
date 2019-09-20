@@ -209,6 +209,7 @@ $(".goToContact").click(function() {
     event.preventDefault();
     formButton.setAttribute("disabled", "disabled");
     sendData();
+    dataLayer.push({'event': 'contacted-us'});
   });
   // End Contact Us Form
 });

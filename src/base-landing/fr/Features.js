@@ -19,7 +19,7 @@ class Features extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="section-title text-center col-12 mb--70">
-                                <h1>Our Services</h1>
+                                <h1>Nos services</h1>
                             </div>
                             {featureDatalist}
                         </div>

@@ -5,13 +5,22 @@ import Footer from './Footer';
 class QuoteLanding extends Component{
     render(){
         
-        let services = [
+        let servicesMASTER = [
             {featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
             {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Duplicate existing parts and products with 3D scanning technology in order to create your CAD files and virtual inventory.'},
             {featureIconName: 'icon-tools-2', featureTitle: 'Post-processing', featureDescription: 'Ready to use on arrival, post-processing is available for most material, further optimizing production to your needs.'},
             {featureIconName: 'icon-tools', featureTitle: 'Designing', featureDescription: 'From existing technical plans or files already available, we offer model validation and assistance in creation and/or modification of CAD files.'},
             {featureIconName: 'icon-circle-compass', featureTitle: 'Metrology', featureDescription: 'Duplicate existing parts and products with 3D scanning in order to create your CAD files and virtual inventory.'},
             {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Insured fast shipping with the possibility to drop-ship directly to your customer.'},
+        ];
+
+        let services = [
+            {featureIconName: 'icon-circle-compass', featureTitle: 'Design', featureDescription: 'Optimisons vos plans techniques pour l\'impression 3D et ajoutez-y des éléments de décor et des modèles réduits.'},
+            {featureIconName: 'icon-gears', featureTitle: 'Impression 3D', featureDescription: 'Produisez une maquette à partir de vos plans techniques parmi un vaste choix de matériau.'},
+            {featureIconName: 'icon-tools-2', featureTitle: 'Projet d\'urbanisme', featureDescription: 'Scannez un lieu ou quartier existant afin d\'y apposer votre maquette au centre.'},
+            {featureIconName: 'icon-tools', featureTitle: 'Type de projet', featureDescription: 'Réalisez des maquettes de concours, des maquette d\'étude ou des projets finis.'},
+            {featureIconName: 'icon-expand', featureTitle: 'Personnalisation', featureDescription: 'Peignez-là avec des couleurs vives ou de discrètes nuances.'},
+            {featureIconName: 'icon-global', featureTitle: 'Envoie rapide', featureDescription: 'Recevez votre maquette dans des délais express.'},
         ];
 
         return(
@@ -25,12 +34,12 @@ class QuoteLanding extends Component{
                             {/* Logo */}
                             <div className="logo col-6 text-left">
                                 <a href="https://3duniversalis.com">
-                                    <img src="assets/images/landing/logo.png" className="img-fluid" alt="" />
-                                    <img src="assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
+                                    <img src="/assets/images/landing/logo.png" className="img-fluid" alt="" />
+                                    <img src="/assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
                             </div>
                             {/* Logo */}
                             <div className="col-6 text-right">
-                                <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Request a quote</a>
+                                <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Nous contactez</a>
                             </div>
                         </div>
                         </div>
@@ -42,8 +51,8 @@ class QuoteLanding extends Component{
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
-                                <h1><strong>Your Manufacturing Partner</strong>Engineering tomorrow's industry through today's innovation.</h1>
-                                <a href="javascript:;" className="buy-btn goToContact">Get a Quote</a>
+                                <h1><strong>Votre partenaire créatif </strong>L'innovation de demain pour vos projets d'aujourd'hui</h1>
+                                <a href="javascript:;" className="buy-btn goToContact">Demandez un devis</a>
                             </div>
                         </div>
                         </div>
@@ -59,8 +68,8 @@ class QuoteLanding extends Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
-                                    <h1>Shape your revolution</h1>
-                                    <a className="buy-btn float-right goToContact" href="javascript:;">Contact Us</a>
+                                    <h1>Façonnez votre révolution</h1>
+                                    <a className="buy-btn float-right goToContact" href="javascript:;">Nous contactez</a>
                                 </div>
                             </div>
                             <div className="row">

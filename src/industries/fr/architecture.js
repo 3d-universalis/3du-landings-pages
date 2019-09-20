@@ -25,7 +25,7 @@ class NavalIndustry extends Component {
       let industryDetails = 
         {
           name: 'Naval',
-          bgImgPath: 'http://i0.wp.com/gomontrealtourism.com/wp-content/uploads/old-montreal-bonsecours-market-streets.jpg?strip=all',
+          bgImgPath: '/assets/images/landing/architecture1.jpg',
           industryDetails: 'We can offer you the best piece of ship for your wonderfull boats bla bla lorem <b>wow</b>',
           mainColor: '#ffffff'
         }

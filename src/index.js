@@ -4,22 +4,18 @@ import ReactDOM from 'react-dom';
 
 // Create Import File
 import './index.scss';
-import architetureIndustryEnglish from './industries/en/architecture';
-import architetureIndustryFrench from './industries/fr/architecture';
-import automobileIndustryFrench from './industries/fr/automobile';
-import automobileIndustryEnglish from './industries/en/automobile';
+import architectureIndustryEnglish from './industries/en/architecture';
+import architectureIndustryFrench from './industries/fr/architecture';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import * as serviceWorker from './serviceWorker';
+// import * as serviceWorker from './serviceWorker';
 
 class Root extends Component{
     render(){
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/en/architecture`} component={architetureIndustryEnglish}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/fr/architecture`} component={architetureIndustryFrench}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/en/automobile`} component={automobileIndustryEnglish}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/fr/automobile`} component={automobileIndustryFrench}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/en/architecture`} component={architectureIndustryEnglish}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/fr/architecture`} component={architectureIndustryFrench}/>
                 </Switch>
             </BrowserRouter>
         )
@@ -27,6 +23,6 @@ class Root extends Component{
 }
 
 ReactDOM.render(<Root/>, document.getElementById('root'));
-serviceWorker.register();
+// serviceWorker.register();
 
 
