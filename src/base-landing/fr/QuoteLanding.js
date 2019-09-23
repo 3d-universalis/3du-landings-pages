@@ -39,7 +39,7 @@ class QuoteLanding extends Component{
                             </div>
                             {/* Logo */}
                             <div className="col-6 text-right">
-                                <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Nous contactez</a>
+                                <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Nous contacter</a>
                             </div>
                         </div>
                         </div>
@@ -58,7 +58,13 @@ class QuoteLanding extends Component{
                         </div>
                     </div>
                     {/* Hero End */}
-
+                    <div className="feature-section section bg-gray pt--50 pb--50">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12" dangerouslySetInnerHTML={{__html:  this.props.landingDetails.industryDetails}}/>
+                            </div>
+                        </div>
+                    </div>
                     {/* Features Section Start */}
                     <Features features = {services} />
                     {/* Features Section End */}

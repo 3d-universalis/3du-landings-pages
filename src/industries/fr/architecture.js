@@ -24,9 +24,9 @@ class NavalIndustry extends Component {
 
       let industryDetails = 
         {
-          name: 'Naval',
+          name: 'Architecture',
           bgImgPath: '/assets/images/landing/architecture1.jpg',
-          industryDetails: 'We can offer you the best piece of ship for your wonderfull boats bla bla lorem <b>wow</b>',
+          industryDetails: '<p style="font-size: 18px;">Nous offrons aux entreprises un <b>service clés en main</b> d\'impression 3D, entre autre pour la <b>création de maquette</b>.<br><br>L’esthétisme de chaque produit impeccable vous fournira un <b>avantage concurrentiel</b> lors de vos soumissions et appels d’offres.<br><br>Également, ce processus de fabrication est <b>très rapide</b> comparé aux méthodes de fabrication traditionnelle.</p>',
           mainColor: '#ffffff'
         }
       ;
