@@ -24,7 +24,7 @@ class Footer extends Component {
                             </div>
                             Message
                             <div className="input-box">
-                                <textarea name="message" placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Share more about yourself and your project and let us know your questions. This first contact will allow us to better study your case for a better adjustment of rates. An expert from our team will contact you within one business day."></textarea>
                             </div>
 
                             <div className="input-box">

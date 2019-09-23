@@ -4,14 +4,23 @@ import Footer from './Footer';
 
 class QuoteLanding extends Component{
     render(){
-        
-        let services = [
+        /*
+        let servicesMASTER = [
             {featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
             {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Duplicate existing parts and products with 3D scanning technology in order to create your CAD files and virtual inventory.'},
             {featureIconName: 'icon-tools-2', featureTitle: 'Post-processing', featureDescription: 'Ready to use on arrival, post-processing is available for most material, further optimizing production to your needs.'},
             {featureIconName: 'icon-tools', featureTitle: 'Designing', featureDescription: 'From existing technical plans or files already available, we offer model validation and assistance in creation and/or modification of CAD files.'},
             {featureIconName: 'icon-circle-compass', featureTitle: 'Metrology', featureDescription: 'Duplicate existing parts and products with 3D scanning in order to create your CAD files and virtual inventory.'},
             {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Insured fast shipping with the possibility to drop-ship directly to your customer.'},
+        ];  */ 
+
+        let services = [
+            {featureIconName: 'icon-circle-compass', featureTitle: 'Design', featureDescription: 'Optimize your technical plans for 3D printing and add decor elements and scale models.'},
+            {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Produce a model from your technical plans from a wide range of materials.'},
+            {featureIconName: 'icon-tools-2', featureTitle: 'Urban planning project', featureDescription: 'Scan an existing area or neighborhood to put your model in the center.'},
+            {featureIconName: 'icon-tools', featureTitle: 'Type of project', featureDescription: 'Make models of contests, study models or finished projects.'},
+            {featureIconName: 'icon-expand', featureTitle: 'Customization', featureDescription: 'Paint with bright colors or discreet shades.'},
+            {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Receive your model in express time.'},
         ];
 
         return(
@@ -42,7 +51,7 @@ class QuoteLanding extends Component{
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
-                                <h1><strong class="capitalize">Your Manufacturing Partner</strong>Engineering tomorrow's industry through today's innovation.</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:  this.props.landingDetails.header}}></h1>
                                 <a href="javascript:;" className="buy-btn goToContact">Get a Quote</a>
                             </div>
                         </div>

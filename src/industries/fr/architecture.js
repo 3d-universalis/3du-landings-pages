@@ -24,10 +24,9 @@ class NavalIndustry extends Component {
 
       let industryDetails = 
         {
-          name: 'Architecture',
           bgImgPath: '/assets/images/landing/architecture1.jpg',
-          industryDetails: '<p style="font-size: 18px;">Nous offrons aux entreprises un <b>service clés en main</b> d\'impression 3D, entre autre pour la <b>création de maquette</b>.<br><br>L’esthétisme de chaque produit impeccable vous fournira un <b>avantage concurrentiel</b> lors de vos soumissions et appels d’offres.<br><br>Également, ce processus de fabrication est <b>très rapide</b> comparé aux méthodes de fabrication traditionnelle.</p>',
-          mainColor: '#ffffff'
+          header: '<strong>Votre partenaire créatif </strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
+          industryDetails: '<p style="font-size: 17px;">Nous offrons aux entreprises un <b>service clés en main</b> d\'impression 3D, pour la <b>création de maquette</b>.<br>Que vous soyez architecte, urbaniste, ou maquettiste ou chargé de projet, vous avez tout à gagner. <br><br>Procurerez-vous un <b>avantage concurrentiel</b> grâce à une maquette d\'un <b>esthétisme impeccable produite à une vitesse inégalée.</b> </p>',
         }
       ;
 

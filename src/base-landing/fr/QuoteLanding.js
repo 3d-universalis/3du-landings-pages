@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 class QuoteLanding extends Component{
     render(){
-        
+        /*
         let servicesMASTER = [
             {featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.'},
             {featureIconName: 'icon-gears', featureTitle: '3D Printing', featureDescription: 'Duplicate existing parts and products with 3D scanning technology in order to create your CAD files and virtual inventory.'},
@@ -12,7 +12,7 @@ class QuoteLanding extends Component{
             {featureIconName: 'icon-tools', featureTitle: 'Designing', featureDescription: 'From existing technical plans or files already available, we offer model validation and assistance in creation and/or modification of CAD files.'},
             {featureIconName: 'icon-circle-compass', featureTitle: 'Metrology', featureDescription: 'Duplicate existing parts and products with 3D scanning in order to create your CAD files and virtual inventory.'},
             {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Insured fast shipping with the possibility to drop-ship directly to your customer.'},
-        ];
+        ];*/
 
         let services = [
             {featureIconName: 'icon-circle-compass', featureTitle: 'Design', featureDescription: 'Optimisons vos plans techniques pour l\'impression 3D et ajoutez-y des éléments de décor et des modèles réduits.'},
@@ -51,7 +51,7 @@ class QuoteLanding extends Component{
                         <div className="container">
                         <div className="row">
                             <div className="hero-content text-center col-12">
-                                <h1><strong>Votre partenaire créatif </strong>L'innovation de demain pour vos projets d'aujourd'hui</h1>
+                                <h1 dangerouslySetInnerHTML={{__html:  this.props.landingDetails.header}}></h1>
                                 <a href="javascript:;" className="buy-btn goToContact">Demandez un devis</a>
                             </div>
                         </div>
