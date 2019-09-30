@@ -8,14 +8,15 @@ import architectureIndustryEnglish from './industries/en/architecture';
 import architectureIndustryFrench from './industries/fr/architecture';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import * as serviceWorker from './serviceWorker';
-
+// IMPORTANT AJOUTER LA ROUTE DANS NOW.JS
 class Root extends Component{
     render(){
         return(
             <BrowserRouter basename={'/'}>
-                <Switch>
+                <Switch> 
                     <Route exact path={`${process.env.PUBLIC_URL}/en/architecture`} component={architectureIndustryEnglish}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/architecture`} component={architectureIndustryFrench}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/fr/maquettes`} component={architectureIndustryFrench}/>
                 </Switch>
             </BrowserRouter>
         )

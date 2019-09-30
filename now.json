@@ -7,7 +7,9 @@
   },
   "routes": [
     {"src": "/en/architecture", "dest": "index.html"},
-    {"src": "/fr/architecture", "dest": "index.html"}],
+    {"src": "/fr/architecture", "dest": "index.html"},
+    {"src": "/fr/maquettes", "dest": "index.html"}
+  ],
   
   "builds": [
     {
