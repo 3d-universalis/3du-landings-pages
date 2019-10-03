@@ -167,8 +167,7 @@ $(".goToContact").click(function() {
     var FD = new FormData(form);
 
     // Transform formdata to an Array
-    var formObject = {};
-    FD.forEach((value, key) => {formObject[key] = value});
+    var formObject = { name: FD.get("name"), phone: FD.get("name"), email: FD.get("email"), message: FD.get("message"), origin: "LandingPages" };
 
     var alertField = document.getElementById("contact-status");
 
