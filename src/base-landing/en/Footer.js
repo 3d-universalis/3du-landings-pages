@@ -12,15 +12,15 @@ class Footer extends Component {
                         <form className="contact-form" id="contact-form">
                             Name
                             <div className="input-box">
-                                <input name="name" type="text" placeholder="John Smith"/>
+                                <input required name="name" type="text" placeholder="John Smith"/>
                             </div>
                             Email
                             <div className="input-box">
-                                <input name="email" type="text" placeholder="name@exemple.com"/>
+                                <input required name="email" type="text" placeholder="name@exemple.com"/>
                             </div>
                             Phone #
                             <div className="input-box">
-                            <input name="phone" type="phone" placeholder="+1 111 222 3333"/>
+                            <input required name="phone" type="phone" placeholder="+1 111 222 3333"/>
                             </div>
                             Message
                             <div className="input-box">
