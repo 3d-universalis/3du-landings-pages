@@ -1,5 +1,6 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
+import Services2 from '../../base-landing/fr/Services';
 
 
 class ArchitectureIndustry extends Component {
@@ -16,18 +17,30 @@ class ArchitectureIndustry extends Component {
 
     let industryDetails = 
       {
-        bgImgPath: '/assets/images/landing/global.jpg',
-        header: '<strong>Votre partenaire créatif </strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
-        industryDetails: '<p style="font-size: 17px;">Nous offrons aux entreprises un <b>service clés en main</b> d\'impression 3D, pour la <b>création de maquette</b>.<br>Que vous soyez architecte, urbaniste, ou maquettiste ou chargé de projet, vous avez tout à gagner. <br><br>Procurerez-vous un <b>avantage concurrentiel</b> grâce à une maquette d\'un <b>esthétisme impeccable produite à une vitesse inégalée.</b> </p>',
-        industryServices: industryServices,
+        details: '<p style="font-size: 17px;">Nous offrons aux entreprises un <b>service clés en main</b> d\'impression 3D, pour la <b>création de maquette</b>.<br>Que vous soyez architecte, urbaniste, ou maquettiste ou chargé de projet, vous avez tout à gagner. <br><br>Procurerez-vous un <b>avantage concurrentiel</b> grâce à une maquette d\'un <b>esthétisme impeccable produite à une vitesse inégalée.</b> </p>',
       }
     ;
 
+      let heroBannerDetails =
+      {
+        bgImgPath: '/assets/images/landing/global.jpg',
+        header: '<strong>Service d’impression 3D </strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
+      }
 
+      // Always keep "Modules" at the end. (Last to initialize.)
+      let modules =
+      {
+        heroBanner: heroBannerDetails,
+        industryDetails: industryDetails,
+        services: industryServices,
+        hasContactForm: true,
+        service2: <Services2/>
+      }
+      
     return(
         <div>
             {/* Header Navbar */}
-            <BaseLanding landingDetails={industryDetails} />
+            <BaseLanding modules={modules} />
         </div>
     )
   }

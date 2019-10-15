@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Features extends Component{
+class Services extends Component{
     render(){
-        let featureDatalist = this.props.features.map((val, i)=> {
+        let featureDatalist = this.props.services.map((val, i)=> {
             return(
                 <div className="single-feature col-lg-4 col-md-6 col-12 mb--50" key={i}>
                     <span className="icon float-left"><i className={val.featureIconName} /></span>
@@ -30,4 +30,4 @@ class Features extends Component{
     }
 }
 
-export default Features;
+export default Services;
