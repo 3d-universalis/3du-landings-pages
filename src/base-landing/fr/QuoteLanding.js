@@ -5,6 +5,8 @@ import ContactForm from './ContactForm';
 import Footer from './Footer';
 import HeroBanner from "./HeroBanner";
 import Industry from "./Industry";
+import PrintingProcess from "./PrintingProcess";
+import TechAndMaterials from "./TechAndMaterials";
 
 class QuoteLanding extends Component{
     render(){
@@ -14,8 +16,10 @@ class QuoteLanding extends Component{
                 <div className="landing-page-wrapper">
                     <Header/>
                     {this.props.modules.heroBanner && <HeroBanner bannerDetails = {this.props.modules.heroBanner}/>}
-                    {this.props.modules.services && <Industry industryDetails = {this.props.modules.industryDetails} />}                         
+                    {this.props.modules.industryDetails && <Industry industryDetails = {this.props.modules.industryDetails} />}                         
                     {this.props.modules.services && <Services services = {this.props.modules.services} />}                   
+                    <PrintingProcess/>
+                    <TechAndMaterials/>
                     {this.props.modules.hasContactForm && <ContactForm/>}
                     <Footer/>
                 </div>
