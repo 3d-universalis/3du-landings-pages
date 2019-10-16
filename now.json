@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "landing-pages",
-  "alias": ["lp.3duniversalis.com"],
   "env": {
     "NODE_ENV": "production"
   },
