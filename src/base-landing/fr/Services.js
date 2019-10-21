@@ -14,7 +14,6 @@ class Services extends Component{
             )
         });
         return(
-            <div>
                 <div className="feature-section section bg-gray pt--50 pb--100">
                     <div className="container">
                         <div className="row">
@@ -25,7 +24,6 @@ class Services extends Component{
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

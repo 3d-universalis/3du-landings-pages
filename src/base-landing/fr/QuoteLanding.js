@@ -7,6 +7,7 @@ import HeroBanner from "./HeroBanner";
 import Industry from "./Industry";
 import PrintingProcess from "./PrintingProcess";
 import TechAndMaterials from "./TechAndMaterials";
+import Partners from "../common/Partners";
 
 class QuoteLanding extends Component{
     render(){
@@ -20,6 +21,7 @@ class QuoteLanding extends Component{
                     {this.props.modules.services && <Services services = {this.props.modules.services} />}                   
                     <PrintingProcess/>
                     <TechAndMaterials/>
+                    {this.props.modules.hasPartnersList && <Partners/>}  
                     {this.props.modules.hasContactForm && <ContactForm/>}
                     <Footer/>
                 </div>

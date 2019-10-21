@@ -31,7 +31,8 @@ class ArchitectureIndustry extends Component {
           heroBanner: heroBannerDetails,
           industryDetails: industryDetails,
           services: industryServices,
-          hasContactForm: true
+          hasContactForm: true,
+          hasPartnersList: true,
         }
 
     return(
