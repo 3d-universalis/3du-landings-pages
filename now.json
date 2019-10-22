@@ -1,14 +1,15 @@
 {
   "version": 2,
   "name": "landing-pages",
-  "alias": ["lp.3duniversalis.com"],
   "env": {
     "NODE_ENV": "production"
   },
   "routes": [
     {"src": "/en/architecture", "dest": "index.html"},
     {"src": "/fr/architecture", "dest": "index.html"},
-    {"src": "/fr/maquettes", "dest": "index.html"}
+    {"src": "/fr/maquettes", "dest": "index.html"},
+    {"src": "/fr/impression-3d", "dest": "index.html"},
+    {"src": "/en/3d-printing", "dest": "index.html"}
   ],
   
   "builds": [
