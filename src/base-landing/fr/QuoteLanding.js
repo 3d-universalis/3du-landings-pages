@@ -4,7 +4,7 @@ import Services from './Services';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
 import HeroBanner from "./HeroBanner";
-import Industry from "./Industry";
+import Industry from "../common/Industry";
 import PrintingProcess from "./PrintingProcess";
 import TechAndMaterials from "./TechAndMaterials";
 import Partners from "../common/Partners";

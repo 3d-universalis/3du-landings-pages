@@ -12,19 +12,34 @@ class ArchitectureIndustry extends Component {
         {featureIconName: 'icon-expand', featureTitle: 'Customization', featureDescription: 'Paint with bright colors or discreet shades.'},
         {featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Receive your model in express time.'},
       ];
-      let industryDetails = 
-        {
-          bgImgPath: '/assets/images/landing/architecture1.jpg',
-          header: '<strong>Your creative Partner</strong>Planning tomorrow\'s industry through today\'s innovation.',
-          industryDetails: '<p style="font-size: 17px;">We offer <b>turnkey 3D printing services</b> for scale models creation.<br><br>Get a <b>competitive advantage</b> with a model of <b>impeccable aesthetics</b> produced at an unprecedented speed. <br><br>Whether you are an architect, urban planner, model builder or project manager, you have everything to gain using <b>3D Printing Technologies</b>.</p>',
-          services: industryServices,
-        }
-      ;
+  
+      let industryDetails =
+      {
+        details: '<p style="font-size: 17px;">We offer <b>turnkey 3D printing services</b> for scale models creation.<br><br>Get a <b>competitive advantage</b> with a model of <b>impeccable aesthetics</b> produced at an unprecedented speed. <br><br>Whether you are an architect, urban planner, model builder or project manager, you have everything to gain using <b>3D Printing Technologies</b>.</p>',
+      }
+        ;
+  
+      let heroBannerDetails =
+      {
+        bgImgPath: '/assets/images/landing/architecture1.jpg',
+        header: '<strong>Your creative Partner</strong>Planning tomorrow\'s industry through today\'s innovation.',
+      }
+  
+      // Always keep "Modules" at the end. (Last to initialize.)
+      let modules =
+      {
+        heroBanner: heroBannerDetails,
+        industryDetails: industryDetails,
+        services: industryServices,
+        hasContactForm: true,
+        hasPartnersList: true,
+      }
+  
+
         return(
-            <div>
-                {/* Header Navbar */}
-                <BaseLanding landingDetails={industryDetails} />
-            </div>
+          <div>
+           <BaseLanding modules={modules} />
+          </div>
         )
     }
 }

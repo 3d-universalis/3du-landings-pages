@@ -5,8 +5,8 @@ class PrintingProcess extends Component{
 
         let printingProcessURLs =
         [
-            {name: 'Plastiques', youtubeURL: 'https://www.youtube.com/embed/FqQAjkZOBeY' },
-            {name: 'Métalliques', youtubeURL: 'https://www.youtube.com/embed/te9OaSZ0kf8' },
+            {name: 'Polymers', youtubeURL: 'https://www.youtube.com/embed/FqQAjkZOBeY' },
+            {name: 'Metals', youtubeURL: 'https://www.youtube.com/embed/te9OaSZ0kf8' },
         ];
         
         let processList = printingProcessURLs.map((val, i)=> {
@@ -22,11 +22,11 @@ class PrintingProcess extends Component{
        
 
         return(
-                <div className="feature-section section bg-gray pt--50 ">
+                <div className="feature-section section bg-gray pt--50 pb--50">
                     <div className="container">
                         <div className="row">
                             <div className="section-title text-center col-12 mb--70">
-                                <h1>Processus d'impression</h1>
+                                <h1>Printing Process</h1>
                             </div>
                             {processList}
                         </div>

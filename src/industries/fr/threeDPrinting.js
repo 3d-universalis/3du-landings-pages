@@ -3,7 +3,7 @@ import BaseLanding from '../../base-landing/fr/QuoteLanding';
 import Services2 from '../../base-landing/fr/Services';
 
 
-class ArchitectureIndustry extends Component {
+class ThreeDPrinting extends Component {
   render(){
     let industryServices = [
       {featureIconName: 'icon-linegraph', featureTitle: 'Prototypage rapide', featureDescription: 'Créez et obtenez votre prototype ou votre échantillon en moins d’une semaine en travaillant avec nos spécialistes.'},
@@ -45,7 +45,7 @@ class ArchitectureIndustry extends Component {
   }
 }
 
-export default ArchitectureIndustry;
+export default ThreeDPrinting;
 
 
 

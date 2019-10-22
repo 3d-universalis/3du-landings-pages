@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Features extends Component{
+class Services extends Component{
     render(){
-        let featureDatalist = this.props.features.map((val, i)=> {
+        let featureDatalist = this.props.services.map((val, i)=> {
             return(
                 <div className="single-feature col-lg-4 col-md-6 col-12 mb--50" key={i}>
                     <span className="icon float-left"><i className={val.featureIconName} /></span>
@@ -14,20 +14,18 @@ class Features extends Component{
             )
         });
         return(
-            <div>
-                <div className="feature-section section bg-gray pt--50 pb--100">
+                <div className="feature-section section bg-gray pt--50 pb--50">
                     <div className="container">
                         <div className="row">
                             <div className="section-title text-center col-12 mb--70">
-                                <h1>Our Services</h1>
+                                <h1>Our services</h1>
                             </div>
                             {featureDatalist}
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }
 
-export default Features;
+export default Services;

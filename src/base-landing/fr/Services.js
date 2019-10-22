@@ -14,7 +14,7 @@ class Services extends Component{
             )
         });
         return(
-                <div className="feature-section section bg-gray pt--50 pb--100">
+                <div className="feature-section section bg-gray  pt--70 pb--0">
                     <div className="container">
                         <div className="row">
                             <div className="section-title text-center col-12 mb--70">
