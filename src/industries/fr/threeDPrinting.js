@@ -1,6 +1,5 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
-import Services2 from '../../base-landing/fr/Services';
 
 
 class ThreeDPrinting extends Component {
