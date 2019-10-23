@@ -5,8 +5,8 @@ class PrintingProcess extends Component{
 
         let printingProcessURLs =
         [
-            {name: 'Plastiques', youtubeURL: 'https://www.youtube.com/embed/FqQAjkZOBeY' },
-            {name: 'Métalliques', youtubeURL: 'https://www.youtube.com/embed/te9OaSZ0kf8' },
+            {name: 'Plastiques', youtubeURL: 'https://www.youtube.com/embed/FqQAjkZOBeY?playsinline=1&loop=1&modestbranding=1' },
+            {name: 'Métalliques', youtubeURL: 'https://www.youtube.com/embed/te9OaSZ0kf8?playsinline=1&loop=1&modestbranding=1' },
         ];
         
         let processList = printingProcessURLs.map((val, i)=> {

@@ -12,11 +12,11 @@ class ContactForm extends Component {
                         <form className="contact-form" id="contact-form">
                             Nom
                             <div className="input-box">
-                                <input name="name" type="text" placeholder="Jean Tremblay"/>
+                                <input required name="name" type="text" placeholder="Jean Tremblay"/>
                             </div>
                             Courriel
                             <div className="input-box">
-                                <input name="email" type="text" placeholder="nom@exemple.com"/>
+                                <input required name="email" type="text" placeholder="nom@exemple.com"/>
                             </div>
                             Téléphone #
                             <div className="input-box">
