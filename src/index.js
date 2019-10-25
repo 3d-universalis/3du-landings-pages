@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 
 // Create Import File
 import './index.scss';
-import architectureIndustryEnglish from './industries/en/architecture';
-import architectureIndustryFrench from './industries/fr/architecture';
-import threeDPrintingFrench from './industries/fr/threeDPrinting';
-import threeDPrintingEnglish from './industries/en/threeDPrinting';
+import architectureIndustryEnglish from './industries/en/Architecture';
+import architectureIndustryFrench from './industries/fr/Architecture';
+import threeDPrintingFrench from './industries/fr/ThreeDPrinting';
+import threeDPrintingEnglish from './industries/en/ThreeDPrinting';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import * as serviceWorker from './serviceWorker';
 // IMPORTANT AJOUTER LA ROUTE DANS NOW.JS
