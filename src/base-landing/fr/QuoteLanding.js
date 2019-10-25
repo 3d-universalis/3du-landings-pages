@@ -15,7 +15,7 @@ class QuoteLanding extends Component{
         return(
             <div>
                 <div className="landing-page-wrapper">
-                    <Header/>
+                    <Header/> 
                     {this.props.modules.heroBanner && <HeroBanner bannerDetails = {this.props.modules.heroBanner}/>}
                     {this.props.modules.industryDetails && <Industry industryDetails = {this.props.modules.industryDetails} />}                         
                     {this.props.modules.services && <Services services = {this.props.modules.services} />}                   
