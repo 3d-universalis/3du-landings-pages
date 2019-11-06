@@ -12,12 +12,19 @@ class ThreeDPrinting extends Component {
       { featureIconName: 'icon-circle-compass', featureTitle: 'Metrology', featureDescription: 'Duplicate existing parts and products with 3D scanning in order to create your CAD files and virtual inventory.' },
       { featureIconName: 'icon-global', featureTitle: 'Fast Shipping', featureDescription: 'Insured fast shipping with the possibility to drop-ship directly to your customer.' },
     ];
-
-    let industryDetails =
+    // Add a way to reuse modules! 
+      
+    let paragraphEnglishWorld =
     {
-      details: '<p style="font-size: 17px;">We offer <b>turnkey 3D printing services</b> for scale models creation.<br><br>Get a <b>competitive advantage</b> with a model of <b>impeccable aesthetics</b> produced at an unprecedented speed. <br><br>Whether you are an architect, urban planner, model builder or project manager, you have everything to gain using <b>3D Printing Technologies</b>.</p>',
+      title: "USA, Canada and Europe",
+      description: 'We offer our services to all types of businesses, everywhere around the globe, mainly in the USA, in Europe and in Canada. By using our facilities in your country, we save on shipping and import fees',
     }
-      ;
+
+    let paragraphOnDemandProduction =
+    {
+      title: "On demand production",
+      description: 'Whether you need a single unit or a mass production, we can produce on demand the required quantity.',
+    }
 
     let heroBannerDetails =
     {
@@ -29,7 +36,8 @@ class ThreeDPrinting extends Component {
     let modules =
     {
       heroBanner: heroBannerDetails,
-      industryDetails: industryDetails,
+      paragraphEnglishWorld: paragraphEnglishWorld,
+      paragraphOnDemandProduction: paragraphOnDemandProduction,
       services: industryServices,
       hasContactForm: true,
       hasPartnersList: true,

@@ -14,10 +14,11 @@ class ThreeDPrinting extends Component {
     ];
 
     let industryDetails = 
-      {
-        details: '<div class="techAndMaterials"><div class="feature-section section bg-gray pt--50"><div class="container"><div class="row"><div class="section-title text-center col-12 mb--70"><h1>À Montréal... et partout au Québec ! </h1></div><div class="description"><p>Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'impression 3D, de prototypage et de production.<br><br>Procurerez-vous un <b>avantage concurrentiel</b> grâce à une maquette d\'un <b>esthétisme impeccable produite à une vitesse inégalée. </b>Que ce soit pour le domaine de l’industriel, du marketing, du manufacturier, de la vente au détails, de la santé, de l\'ingénierie, de l’architecture, de l’automobile ou de l’alimentaire, nos spécialistes couvrent des projets de natures très variées.</p></div></div></div></div></div>',
-      }
-    ;
+    {
+      title:"À Montréal... et partout au Québec ! ",
+      description: '<p>Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'impression 3D, de prototypage et de production.<br><br>Procurerez-vous un <b>avantage concurrentiel</b> grâce à une maquette d\'un <b>esthétisme impeccable produite à une vitesse inégalée. </b>Que ce soit pour le domaine de l’industriel, du marketing, du manufacturier, de la vente au détails, de la santé, de l\'ingénierie, de l’architecture, de l’automobile ou de l’alimentaire, nos spécialistes couvrent des projets de natures très variées.</p>',
+    }
+  ;
 
       let heroBannerDetails =
       {
