@@ -22,10 +22,10 @@ class PrintingProcess extends Component{
        
 
         return(
-                <div className="feature-section section bg-gray pt--50 pb--50">
+                <div className="feature-section section bg-gray pt--70 pb--50">
                     <div className="container">
                         <div className="row">
-                            <div className="section-title text-center col-12 mb--70">
+                            <div className="section-title text-center col-12 mb--20">
                                 <h1>Printing Process</h1>
                             </div>
                             {processList}

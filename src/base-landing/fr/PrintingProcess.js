@@ -25,7 +25,7 @@ class PrintingProcess extends Component{
                 <div className="feature-section section bg-gray pt--50 ">
                     <div className="container">
                         <div className="row">
-                            <div className="section-title text-center col-12 mb--70">
+                            <div className="section-title text-center col-12 mb--30">
                                 <h1>Processus d'impression</h1>
                             </div>
                             {processList}

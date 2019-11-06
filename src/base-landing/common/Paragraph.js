@@ -5,7 +5,7 @@ class Paragraph extends Component {
         function GenerateTitle(props) {
             if (props.title) {
               return(
-                <div class="section-title text-center col-12 mb--20"><h1 dangerouslySetInnerHTML={{__html:  props.title}}/></div>
+                <div class="section-title text-center col-12 mb--30"><h1 dangerouslySetInnerHTML={{__html:  props.title}}/></div>
                 );
             }
             // @todo: See if we could make the return null prettier.
@@ -22,16 +22,14 @@ class Paragraph extends Component {
         }
           
         return(
-                    <div class="techAndMaterials">
-                        <div class="feature-section section bg-gray pt--50">
-                            <div class="container">
-                                <div class="row">
-                                <GenerateTitle title={this.props.paragraph.title} />
-                                <GenerateDescription description={this.props.paragraph.description} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>                    
+            <div class="feature-section section bg-gray pt--50">
+                <div class="container">
+                    <div class="row">
+                    <GenerateTitle title={this.props.paragraph.title} />
+                    <GenerateDescription description={this.props.paragraph.description} />
+                    </div>
+                </div>
+            </div>                
         )
     }
 }

@@ -7,7 +7,7 @@ class PrintingProcess extends Component{
                 <div className="feature-section section bg-gray pt--50 pb--70">
                     <div className="container">
                         <div className="row">
-                            <div className="section-title text-center col-12 mb--70">
+                            <div className="section-title text-center col-12 mb--30">
                                 <h1>Technologies et matériaux </h1>
                             </div>
                             <div className="col-12 description-text">
