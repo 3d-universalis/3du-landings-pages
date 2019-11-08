@@ -14,13 +14,13 @@ class ThreeDPrinting extends Component {
     ];
     // Add a way to reuse modules! 
       
-    let paragraphEnglishWorld =
+    let customParagraph1 =
     {
       title: "USA, Canada and Europe",
       description: 'We offer our services to all types of businesses, everywhere around the globe, mainly in the USA, in Europe and in Canada. By using our facilities in your country, we save on shipping and import fees',
     }
 
-    let paragraphOnDemandProduction =
+    let customParagraph3 =
     {
       title: "On demand production",
       description: 'Whether you need a single unit or a mass production, we can produce on demand the required quantity.',
@@ -36,11 +36,12 @@ class ThreeDPrinting extends Component {
     let modules =
     {
       heroBanner: heroBannerDetails,
-      paragraphEnglishWorld: paragraphEnglishWorld,
-      paragraphOnDemandProduction: paragraphOnDemandProduction,
+      customParagraph1: customParagraph1,
+      customParagraph3: customParagraph3,
       services: industryServices,
       hasContactForm: true,
       hasPartnersList: true,
+      hasPrintingProcess: true,
     }
 
     return (

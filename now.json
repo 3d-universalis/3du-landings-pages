@@ -9,7 +9,8 @@
     {"src": "/fr/architecture", "dest": "index.html"},
     {"src": "/fr/maquettes", "dest": "index.html"},
     {"src": "/fr/impression-3d", "dest": "index.html"},
-    {"src": "/en/3d-printing", "dest": "index.html"}
+    {"src": "/en/3d-printing", "dest": "index.html"},
+    {"src": "/fr/services/scan-3d", "dest": "index.html"}
   ],
   
   "builds": [
