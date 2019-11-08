@@ -9,7 +9,8 @@ import architectureIndustryFrench from './industries/fr/Architecture';
 import threeDPrintingFrench from './industries/fr/ThreeDPrinting';
 import threeDPrintingEnglish from './industries/en/ThreeDPrinting';
 import scan3dFrench from './industries/fr/Scan3D';
-//import scan3dEnglish from './industries/en/Scan3D';
+import scan3dEnglish from './industries/en/Scan3D';
+import industrielFR from './industries/fr/Industriel';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import * as serviceWorker from './serviceWorker';
 // IMPORTANT AJOUTER LA ROUTE DANS NOW.JS
@@ -24,6 +25,8 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/impression-3d`} component={threeDPrintingFrench}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/en/3d-printing`} component={threeDPrintingEnglish}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/services/scan-3d`} component={scan3dFrench}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/scan-3d`} component={scan3dEnglish}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/fr/industriel`} component={industrielFR}/>
                 </Switch>
             </BrowserRouter>
         )
