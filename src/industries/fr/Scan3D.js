@@ -2,7 +2,7 @@ import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
 
 
-class ArchitectureIndustry extends Component {
+class Scan3D extends Component {
   render(){
       let industryServices = [
         {featureIconName: 'icon-circle-compass', featureTitle: 'Design', featureDescription: 'Optimisons vos plans techniques pour l\'impression 3D et ajoutez-y des éléments de décor et des modèles réduits.'},
@@ -55,7 +55,7 @@ class ArchitectureIndustry extends Component {
   }
 }
 
-export default ArchitectureIndustry;
+export default Scan3D;
 
 
 
