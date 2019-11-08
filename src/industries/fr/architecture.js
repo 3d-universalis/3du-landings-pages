@@ -2,7 +2,7 @@ import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
 
 
-class Scan3D extends Component {
+class ArchitectureIndustry extends Component {
   render(){
     let industryServices = [
       {featureIconName: 'icon-circle-compass', featureTitle: 'Design', featureDescription: 'Optimisons vos plans techniques pour l\'impression 3D et ajoutez-y des éléments de décor et des modèles réduits.'},
@@ -22,7 +22,7 @@ class Scan3D extends Component {
         let heroBannerDetails =
         {
           bgImgPath: '/assets/images/landing/architecture1.jpg',
-          header: '<strong>Prototypage rapide par impression 3D </strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
+          header: '<strong>Votre partenaire créatif</strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
         }
   
         // Always keep "Modules" at the end. (Last to initialize.)
@@ -46,7 +46,7 @@ class Scan3D extends Component {
   }
 }
 
-export default Scan3D;
+export default ArchitectureIndustry;
 
 
 
