@@ -11,6 +11,7 @@
     {"src": "/fr/impression-3d", "dest": "index.html"},
     {"src": "/en/3d-printing", "dest": "index.html"},
     {"src": "/fr/services/scan-3d", "dest": "index.html"},
+    {"src": "/en/services/3d-scan", "dest": "index.html"},
     {"src": "/fr/industriel", "dest": "index.html"}
   ],
   

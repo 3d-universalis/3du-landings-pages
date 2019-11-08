@@ -25,7 +25,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/impression-3d`} component={threeDPrintingFrench}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/en/3d-printing`} component={threeDPrintingEnglish}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/services/scan-3d`} component={scan3dFrench}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/scan-3d`} component={scan3dEnglish}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/3d-scan`} component={scan3dEnglish}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/industriel`} component={industrielFR}/>
                 </Switch>
             </BrowserRouter>
