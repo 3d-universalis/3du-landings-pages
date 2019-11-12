@@ -2,7 +2,7 @@ import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
 
 
-class IndustrialIndustry extends Component {
+class PrototypingService extends Component {
     render(){ 
       let industryServices = [
         { featureIconName: 'icon-linegraph', featureTitle: 'Rapid prototypage and samples', featureDescription: 'Get your prototype or sample shipped within a week.' },
@@ -15,8 +15,8 @@ class IndustrialIndustry extends Component {
   
       let customParagraph1 = 
       {
-        title:"Technologies and materials ",
-        description: 'We manufacture in over <b>200 different types of materials</b> (metals and polymers / plastics) using a dozen different technologies. Our dedicated experts team will be happy to advise you on the materials that will best suit your projects.',
+        title:"Technologies and materials",
+        description: 'Make a rapid prototype with us in over 200 different types of materials (metals and polymers / plastics) using a dozen different technologies. Our dedicated experts team will be happy to advise you on the materials that will best suit your projects.',
       };
 
       let customParagraph2 =
@@ -28,8 +28,8 @@ class IndustrialIndustry extends Component {
   
       let heroBannerDetails =
       {
-        bgImgPath: '/assets/images/landing/scan-reproduction.jpg',
-        header: '<strong>Industrial 3D Printing Services</strong>Engineering tomorrow\'s industry through today\'s innovation.',
+        bgImgPath: '/assets/images/landing/prototype.jpg',
+        header: '<strong>Rapid Prototyping Service</strong>Engineering tomorrow\'s industry through today\'s innovation.',
       }
   
       // Always keep "Modules" at the end. (Last to initialize.)
@@ -54,7 +54,7 @@ class IndustrialIndustry extends Component {
     }
 }
 
-export default IndustrialIndustry;
+export default PrototypingService;
 
 
 
