@@ -2,7 +2,7 @@ import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
 
 
-class Scan3D extends Component {
+class Industriel extends Component {
   render(){
     let industryServices = [
       {featureIconName: 'icon-linegraph', featureTitle: 'Prototypage rapide', featureDescription: 'Créez et obtenez votre prototype ou votre échantillon en moins d’une semaine en travaillant avec nos spécialistes.'},
@@ -24,7 +24,7 @@ class Scan3D extends Component {
       let customParagraph2 = 
       {
         title:"À Montréal... et partout au Québec ! ",
-        description: 'Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'impression 3D, au prototypage rapide et à la production.',
+        description: 'Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'impression 3D, de prototypage et de production.',
       };
   
       let heroBannerDetails =
@@ -55,7 +55,7 @@ class Scan3D extends Component {
   }
 }
 
-export default Scan3D;
+export default Industriel;
 
 
 
