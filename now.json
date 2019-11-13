@@ -15,7 +15,9 @@
     {"src": "/fr/industriel", "dest": "index.html"},
     {"src": "/en/industrial", "dest": "index.html"},
     {"src": "/fr/services/prototypes", "dest": "index.html"},
-    {"src": "/en/services/protyping", "dest": "index.html"}
+    {"src": "/en/services/protyping", "dest": "index.html"},
+    {"src": "/fr/services/creation-logo-3d", "dest": "index.html"},
+    {"src": "/en/services/3d-logo-printing", "dest": "index.html"}
   ],
   
   "builds": [
