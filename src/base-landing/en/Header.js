@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="row justify-content-between align-items-center">
                 {/* Logo */}
                 <div className="logo col-6 text-left">
-                    <a href="https://3duniversalis.com">
+                    <a href="https://3duniversalis.com/?utm_source=lp.3duniversalis.com&utm_medium=landing-pages&utm_campaign=lp-2019">
                         <img src="/assets/images/landing/logo.png" className="img-fluid" alt="" />
                         <img src="/assets/images/landing/logo-2.png" alt="" className="sticky-logo img-fluid" /></a>
                 </div>
