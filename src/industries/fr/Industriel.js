@@ -2,7 +2,7 @@ import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
 
 
-class Industriel extends Component {
+class IndustrialIndustry extends Component {
   render(){
     let industryServices = [
       {featureIconName: 'icon-linegraph', featureTitle: 'Prototypage rapide', featureDescription: 'Créez et obtenez votre prototype ou votre échantillon en moins d’une semaine en travaillant avec nos spécialistes.'},
@@ -55,7 +55,7 @@ class Industriel extends Component {
   }
 }
 
-export default Industriel;
+export default IndustrialIndustry;
 
 
 
