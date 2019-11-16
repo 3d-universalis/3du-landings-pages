@@ -16,6 +16,8 @@ import prototypingFR from './industries/fr/Prototyping';
 import prototypingEN from './industries/en/Prototyping';
 import LogoFR from './industries/fr/Logo';
 import LogoEN from './industries/en/Logo';
+import MoldFR from './industries/fr/Mold';
+import MoldEN from './industries/en/Mold';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import * as serviceWorker from './serviceWorker';
 // IMPORTANT AJOUTER LA ROUTE DANS NOW.JS
@@ -34,9 +36,11 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/industriel`} component={industrielFR}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/en/industrial`} component={industrielEN}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/services/prototypes`} component={prototypingFR}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/protyping`} component={prototypingEN}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/protoyping`} component={prototypingEN}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/fr/services/creation-logo-3d`} component={LogoFR}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/en/services/3d-logo-printing`} component={LogoEN}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/fr/services/moules-et-matrices`} component={MoldFR}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/en/services/custom-molds`} component={MoldEN}/>                    
                 </Switch>
             </BrowserRouter>
         )

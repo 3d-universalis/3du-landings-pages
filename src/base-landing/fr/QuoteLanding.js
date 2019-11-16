@@ -21,7 +21,7 @@ class QuoteLanding extends Component{
                     {this.props.modules.customParagraph2 && <Paragraph paragraph = {this.props.modules.customParagraph2} />}                         
                     {this.props.modules.services && <Services services = {this.props.modules.services} />}              
                     {this.props.modules.customParagraph3 && <Paragraph paragraph = {this.props.modules.customParagraph3} />}             
-                    {this.props.modules.hasPrintingProcess &&<PrintingProcess/>}  
+                    {this.props.modules.hasPrintingProcess && <PrintingProcess process = {this.props.modules.hasPrintingProcess} />}  
                     {this.props.modules.techAndMaterials && <TechAndMaterials techAndMaterials = {this.props.modules.techAndMaterials}/>} 
                     {this.props.modules.hasPartnersList && <Partners/>}  
                     {this.props.modules.hasContactForm && <ContactForm/>}
