@@ -15,11 +15,12 @@
     {"src": "/fr/industriel", "dest": "index.html"},
     {"src": "/en/industrial", "dest": "index.html"},
     {"src": "/fr/services/prototypes", "dest": "index.html"},
-    {"src": "/en/services/protoyping", "dest": "index.html"},
+    {"src": "/en/services/prototyping", "dest": "index.html"},
     {"src": "/fr/services/creation-logo-3d", "dest": "index.html"},
     {"src": "/en/services/3d-logo-printing", "dest": "index.html"},
     {"src": "/fr/services/moules-et-matrices", "dest": "index.html"},
     {"src": "/en/services/custom-molds", "dest": "index.html"}
+
   ],
   
   "builds": [
