@@ -10,23 +10,22 @@ class ContactForm extends Component {
                                     <h1>Nous Contactez</h1>
                         </div>
                         <form className="contact-form" id="contact-form">
-                            Nom
+                            Nom ou Entreprise*:
                             <div className="input-box">
-                                <input required name="name" type="text" placeholder="Jean Tremblay"/>
+                                <input required name="name" type="text"/>
                             </div>
-                            Courriel
+                            Adresse courriel:
                             <div className="input-box">
                                 <input required name="email" type="text" placeholder="nom@exemple.com"/>
                             </div>
-                            Téléphone #
+                            Num. de Téléphone:
                             <div className="input-box">
-                            <input name="phone" type="phone" placeholder="+1 514 123 4567"/>
+                            <input name="phone" type="phone"/>
                             </div>
-                            Message
+                            Votre projet:
                             <div className="input-box">
-                                <textarea name="message" placeholder="Partagez-nous en davantage sur vous et votre projet et faites-nous part de vos questions. Un expert de notre équipe vous contactera d'ici la prochaine journée ouvrable."></textarea>
+                                <textarea name="message" placeholder="Partagez-nous en davantage sur vous et votre projet (budget, délais, etc.) et faites-nous part de vos questions. Un expert de notre équipe vous contactera d'ici la prochaine journée ouvrable."></textarea>
                             </div>
-
                             <div className="input-box">
                                 <button className="submite-button" id="contact-form-submit" type="submit">Envoyer</button>
                             </div>

@@ -10,19 +10,19 @@ class ContactForm extends Component {
                                     <h1>Contact us</h1>
                         </div>
                         <form className="contact-form" id="contact-form">
-                            Name
+                            Name / Company Name*:
                             <div className="input-box">
                                 <input required name="name" type="text" placeholder="John Smith"/>
                             </div>
-                            Email
+                            Email*:
                             <div className="input-box">
                                 <input required name="email" type="text" placeholder="name@exemple.com"/>
                             </div>
-                            Phone #
+                            Phone #:
                             <div className="input-box">
                             <input name="phone" type="phone" placeholder="+1 111 222 3333"/>
                             </div>
-                            Message
+                            Your project:
                             <div className="input-box">
                                 <textarea name="message" placeholder="Share more about yourself and your project and let us know your questions. This first contact will allow us to better study your case for a better adjustment of rates. An expert from our team will contact you within one business day."></textarea>
                             </div>
