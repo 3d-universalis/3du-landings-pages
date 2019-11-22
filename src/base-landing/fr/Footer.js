@@ -16,7 +16,8 @@ class Footer extends Component {
                                         <a href="https://www.linkedin.com/company/18952599"><i className="zmdi zmdi-linkedin"></i></a>
                                     </div>
                                     <div className="footer-text text-center">
-                                        <span>Copyright © 2019 - <a href="https://3Duniversalis.com">3D Universalis</a><br/>info@3duniversalis.com</span>
+                                        <span>Copyright © 2019 - <a href="https://3Duniversalis.com">3D Universalis</a>
+                                        <br/><a href="mailto:info@3duniversalis.com">info@3duniversalis.com</a></span>
                                     </div>
                                 </div>
                             </div>
