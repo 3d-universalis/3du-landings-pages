@@ -24,7 +24,9 @@ class ContactForm extends Component {
                             </div>
                             Votre projet:
                             <div className="input-box">
-                                <textarea name="message" placeholder="Partagez-nous en davantage sur vous et votre projet (budget, délais, etc.) et faites-nous part de vos questions. Un expert de notre équipe vous contactera d'ici la prochaine journée ouvrable."></textarea>
+                                <textarea name="message" placeholder="Partagez-nous en davantage sur vous et votre
+                                 projet (budget, délais, etc.) et faites-nous part de vos questions. Un expert de
+                                  notre équipe vous contactera d'ici la prochaine journée ouvrable."></textarea>
                             </div>
                             <div className="input-box">
                                 <button className="submite-button" id="contact-form-submit" type="submit">Envoyer</button>
