@@ -13,7 +13,7 @@ class Header extends Component {
                 </div>
                 {/* Logo */}
                 <div className="col-6 text-right">
-                    <span className="header-number"><span className="icon-phone"></span>  +1 438-828-1722 </span><a href="javascript:;" className="buy-btn goToContact" >Nous contacter</a>
+                    <span className="header-number"><span className="icon-phone"></span> +1 833 776 7775 (Sans‑frais au Canada)</span><a href="javascript:;" className="buy-btn goToContact" >Nous contacter</a>
                 </div>
             </div>
             </div>
