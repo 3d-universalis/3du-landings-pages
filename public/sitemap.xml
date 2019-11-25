@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://lp.3duniversalis.com/en/architecture</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/maquettes</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/impression-3d</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/services/scan-3d</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/en/services/3d-scan</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/industriel</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/en/industrial</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/services/prototypes</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/en/services/prototyping</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/services/creation-logo-3d</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/en/services/3d-logo-printing</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/fr/services/moules-et-matrices</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://lp.3duniversalis.com/en/services/custom-molds</loc>
+  <lastmod>2019-11-25T17:47:36+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
