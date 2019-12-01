@@ -19,7 +19,12 @@
     {"src": "/fr/services/creation-logo-3d", "dest": "index.html"},
     {"src": "/en/services/3d-logo-printing", "dest": "index.html"},
     {"src": "/fr/services/moules-et-matrices", "dest": "index.html"},
-    {"src": "/en/services/custom-molds", "dest": "index.html"}
+    {"src": "/en/services/custom-molds", "dest": "index.html"},
+    {
+      "src": "/",
+      "status": 308,
+      "headers": { "Location": "/fr/impression-3d" }
+    }
 
   ],
   
