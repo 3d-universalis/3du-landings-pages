@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const pages = {
@@ -27,9 +26,39 @@ export default function Home() {
   return (
     <div className="container" style={{ paddingTop: '60px', paddingBottom: '60px' }}>
       <div className="text-center mb-5">
-        <h1>3D Universalis</h1>
-        <p className="lead text-muted">Landing Pages</p>
+        <h1>3D Universalis — Ad Landing Pages</h1>
+        <p className="lead text-muted">Marketing assets from a 3D printing startup (2018–2020)</p>
       </div>
+
+      <div className="row justify-content-center mb-5">
+        <div className="col-md-8">
+          <div className="card border-0 bg-light p-4">
+            <h5 className="mb-3">About this project</h5>
+            <p>
+              3D Universalis was a 3D printing services startup co-founded in 2018, incubated at{' '}
+              <strong>HEC Montréal</strong> and financed by <strong>Futurpreneur</strong>. The company
+              offered on-demand 3D printing, scanning, prototyping, and custom mold services to clients
+              in the Montréal region.
+            </p>
+            <p>
+              This repository preserves the <strong>bilingual (FR/EN) marketing landing pages</strong>{' '}
+              used in Google Adsense and Facebook ad campaigns to generate qualified leads across several
+              service verticals. Each page was targeted to a specific audience (architects, industrial
+              designers, manufacturers, etc.) and optimized for conversion.
+            </p>
+            <p>
+              The contact forms on each landing page were connected to a serverless backend:{' '}
+              <strong>AWS Lambda</strong> processed form submissions and triggered{' '}
+              <strong>Amazon Simple Notification Service (SNS)</strong> to deliver lead notifications
+              by email and push data into our CRM.
+            </p>
+            <p className="mb-0 text-muted" style={{ fontSize: '0.9rem' }}>
+              Stack: React · SCSS · AWS Lambda · Amazon SNS · AWS (EC2, S3) for 3D rendering · Google Tag Manager · GitHub Pages
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="row">
         {Object.entries(pages).map(([lang, links]) => (
           <div className="col-md-6" key={lang}>
