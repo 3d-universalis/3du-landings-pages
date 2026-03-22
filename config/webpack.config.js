@@ -107,11 +107,15 @@ module.exports = function(webpackEnv) {
       },
     ].filter(Boolean);
     if (preProcessor) {
+      const preProcessorOptions = {
+        sourceMap: isEnvProduction && shouldUseSourceMap,
+      };
+      if (preProcessor === 'sass-loader') {
+        preProcessorOptions.implementation = require('sass');
+      }
       loaders.push({
         loader: require.resolve(preProcessor),
-        options: {
-          sourceMap: isEnvProduction && shouldUseSourceMap,
-        },
+        options: preProcessorOptions,
       });
     }
     return loaders;
