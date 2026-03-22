@@ -6,7 +6,7 @@
 .landing-page-wrapper {
 
     .landing-hero-bg {
-        background-image: url("/assets/images/landing/ship-bg.jpg");
+        background-image: url("#{$asset-base}assets/images/landing/ship-bg.jpg");
     }
     .header-section {
         .logo {

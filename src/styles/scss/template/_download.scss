@@ -16,7 +16,7 @@
     padding-top: 319px;
     position: relative;
     z-index: 2;
-    background-image: url(/assets/images/bg/bg-image-1.jpg);
+    background-image: url(#{$asset-base}assets/images/bg/bg-image-1.jpg);
     
     @media #{$lg-layout} {
         margin-top: -347px;
@@ -51,7 +51,7 @@
 
     
     &::before{
-        background-image: url(/assets/images/app/shape-2.png);
+        background-image: url(#{$asset-base}assets/images/app/shape-2.png);
         background-repeat: no-repeat;
         background-position: left top;
         background-size: cover;
@@ -63,7 +63,7 @@
         z-index: 2;
     }
     &::after{
-        background-image: url(/assets/images/app/shape-3.png);
+        background-image: url(#{$asset-base}assets/images/app/shape-3.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -96,7 +96,7 @@
         padding-top: 100px;
         position: relative;
         z-index: 2;
-        background-image: url(/assets/images/bg/bg-image-1.jpg);
+        background-image: url(#{$asset-base}assets/images/bg/bg-image-1.jpg);
         margin-bottom: 77px;
         &::before ,
         &::after {

@@ -5,7 +5,7 @@ Feature Area
 .feature-bg-image {
     background-position: -8.5% 63%;
     background-size: 62% auto;
-    background-image: url(/assets/images/app/preview.png);
+    background-image: url(#{$asset-base}assets/images/app/preview.png);
     margin-top: -112px;
     padding-top: 35px;
     background-repeat: no-repeat;
