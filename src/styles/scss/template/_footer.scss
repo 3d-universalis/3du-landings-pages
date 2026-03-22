@@ -4,7 +4,7 @@
 
 .footer-area {
     padding-top: 322px;
-    background-image: url(/assets/images/bg/bg-image-2.jpg);
+    background-image: url(#{$asset-base}assets/images/bg/bg-image-2.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
         padding-top: 455px;
     }
     &::before {
-        background-image: url(/assets/images/app/shape-2.png);
+        background-image: url(#{$asset-base}assets/images/app/shape-2.png);
         background-repeat: no-repeat;
         background-position: left top;
         background-size: cover;
