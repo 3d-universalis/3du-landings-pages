@@ -1,16 +1,10 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
-class MoldsServices extends Component {
+class Scan3D extends Component {
   render(){
-
-    let heroBannerDetails =
-    {
-      header: '<strong>Service de création de moules personnalisés</strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
-      bgImgPath: '/assets/images/landing/chocolate-molds.jpg',
-    };
-
     let industryServices = [
       {featureIconName: 'icon-linegraph', featureTitle: 'Prototypage rapide', featureDescription: 'Créez et obtenez votre prototype ou votre échantillon en moins d’une semaine en travaillant avec nos spécialistes.'},
       {featureIconName: 'icon-gears', featureTitle: 'Impression 3D', featureDescription: 'Imprimez en 3D vos produits. Production sur demande : unitaire, à petit ou à grand volume.'},
@@ -20,26 +14,25 @@ class MoldsServices extends Component {
       {featureIconName: 'icon-global', featureTitle: 'Livraison rapide', featureDescription: 'Bénéficiez d’un service d’envoi postal express, que ce soit chez vous ou chez votre client.'},
     ];
   
+
       // @todo: Work around until we can choose the position of the modules.
       let customParagraph1 = 
       {
-        title:"Technologies et matériaux",
-        description: 'Avec un design personnalisé et une matrice imprimée 3D, créez votre moule sur mesure par la procédure de <b>coulée sous vide</b>.<br>Les matériaux utilisés sont certifiés pour une <b>utilisation alimentaire</b>.<br><br> Un membre de notre équipe se fera un plaisir de vous assister dans la création du design et les différentes étapes de création du moules.',
+        title:"Technologies et matériaux ",
+        description: 'Scannez, numérisez et dupliquez n’importe quelle pièce grâce à notre service de scan 3D. Ensuite, avec l’impression 3D, fabriquez votre prototype rapidement dans un choix de plus de 200 types de matériaux différents (métaux et polymères/plastiques) et une dizaine de technologies variées. Soyez rassurés, des experts de notre équipe se feront le plaisir de vous conseiller à propos des matériaux qui conviendront le mieux à vos projets.',
       };
   
       let customParagraph2 = 
       {
-        title:"À Montréal... et partout au Québec !",
-        description: 'Nous offrons aux entreprises un service clés en main relié au prototypage, au design, à l\'impression 3D et à la production à petit ou grand volume.',
+        title:"À Montréal... et partout au Québec ! ",
+        description: 'Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'<b>impression 3D</b>, au prototypage rapide et à la production sur demande.<br><br>Que ce soit pour le domaine de l’industriel, du marketing, du manufacturier, de la vente au détails, de la santé, de l’ingénierie, de l’architecture, de l’automobile ou de l’alimentaire, nos spécialistes couvrent des <b>projets de nature variée</b>.',
       };
-
-      let printingProcess = {
-        title: "Procédés",
-        videos : [
-          {name: 'Création de la matrice', youtubeURL: 'https://www.youtube.com/embed/FqQAjkZOBeY'},
-          {name: 'Coulée sous vide', youtubeURL: 'https://www.youtube.com/embed/MTZ5FunrcDY'}
-        ]
-      }
+  
+      let heroBannerDetails =
+      {
+        bgImgPath: assetUrl('assets/images/landing/scan3d.jpg'),
+        header: '<strong>Service de scan 3D</strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
+      };
   
       // Always keep "Modules" at the end. (Last to initialize.)
       let modules =
@@ -50,7 +43,7 @@ class MoldsServices extends Component {
         services: industryServices,
         hasContactForm: true,
         hasPartnersList: true,
-        hasPrintingProcess: printingProcess,
+        hasPrintingProcess: true,
         techAndMaterials: false,
       };
 
@@ -63,7 +56,7 @@ class MoldsServices extends Component {
   }
 }
 
-export default MoldsServices;
+export default Scan3D;
 
 
 

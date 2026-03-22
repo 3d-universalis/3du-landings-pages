@@ -1,8 +1,9 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/fr/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
-class Scan3D extends Component {
+class IndustrialIndustry extends Component {
   render(){
     let industryServices = [
       {featureIconName: 'icon-linegraph', featureTitle: 'Prototypage rapide', featureDescription: 'Créez et obtenez votre prototype ou votre échantillon en moins d’une semaine en travaillant avec nos spécialistes.'},
@@ -18,19 +19,19 @@ class Scan3D extends Component {
       let customParagraph1 = 
       {
         title:"Technologies et matériaux ",
-        description: 'Scannez, numérisez et dupliquez n’importe quelle pièce grâce à notre service de scan 3D. Ensuite, avec l’impression 3D, fabriquez votre prototype rapidement dans un choix de plus de 200 types de matériaux différents (métaux et polymères/plastiques) et une dizaine de technologies variées. Soyez rassurés, des experts de notre équipe se feront le plaisir de vous conseiller à propos des matériaux qui conviendront le mieux à vos projets.',
+        description: 'Nous fabriquons dans plus de 200 types de matériaux différents (métaux et polymères/plastiques) en utilisant une dizaine de technologies variées. Soyez rassurés, des experts de notre équipe se feront le plaisir de vous conseiller à propos des matériaux qui conviendront le mieux à vos projets.',
       };
   
       let customParagraph2 = 
       {
         title:"À Montréal... et partout au Québec ! ",
-        description: 'Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'<b>impression 3D</b>, au prototypage rapide et à la production sur demande.<br><br>Que ce soit pour le domaine de l’industriel, du marketing, du manufacturier, de la vente au détails, de la santé, de l’ingénierie, de l’architecture, de l’automobile ou de l’alimentaire, nos spécialistes couvrent des <b>projets de nature variée</b>.',
+        description: 'Nous offrons aux entreprises un <b>service clés en main</b> relié à l\'impression 3D, de prototypage et de production.',
       };
   
       let heroBannerDetails =
       {
-        bgImgPath: '/assets/images/landing/scan3d.jpg',
-        header: '<strong>Service de scan 3D</strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
+        bgImgPath: assetUrl('assets/images/landing/scan-reproduction.jpg'),
+        header: '<strong>Service d’impression 3D industriel</strong>L\'innovation de demain pour vos projets d\'aujourd\'hui',
       };
   
       // Always keep "Modules" at the end. (Last to initialize.)
@@ -55,7 +56,7 @@ class Scan3D extends Component {
   }
 }
 
-export default Scan3D;
+export default IndustrialIndustry;
 
 
 

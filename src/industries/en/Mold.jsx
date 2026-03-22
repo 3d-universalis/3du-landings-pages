@@ -1,5 +1,6 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
 class MoldsServices extends Component {
@@ -8,7 +9,7 @@ class MoldsServices extends Component {
       let heroBannerDetails =
       {
         header: '<strong>3D Custom Mold Services</strong>Engineering tomorrow\'s industry through today\'s innovation.',
-        bgImgPath: '/assets/images/landing/chocolate-molds.jpg'
+        bgImgPath: assetUrl('assets/images/landing/chocolate-molds.jpg')
       }
 
       let industryServices = [

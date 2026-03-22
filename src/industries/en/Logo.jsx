@@ -1,5 +1,6 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
 class LogoServices extends Component {
@@ -8,7 +9,7 @@ class LogoServices extends Component {
       let heroBannerDetails =
       {
         header: '<strong>Logo 3D Printing Service</strong>UPDATE THIS.',
-        bgImgPath: '/assets/images/landing/3d-logos.jpg'
+        bgImgPath: assetUrl('assets/images/landing/3d-logos.jpg')
       }
 
       let industryServices = [

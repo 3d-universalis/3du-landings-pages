@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
 class ThreeDPrinting extends Component {
@@ -28,7 +29,7 @@ class ThreeDPrinting extends Component {
 
     let heroBannerDetails =
     {
-      bgImgPath: '/assets/images/landing/global.jpg',
+      bgImgPath: assetUrl('assets/images/landing/global.jpg'),
       header: '<strong>3D Printing Services</strong>Engineering tomorrow\'s industry through today\'s innovation.',
     }
 
