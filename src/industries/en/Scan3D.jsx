@@ -1,5 +1,6 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
 class Scan3D extends Component {
@@ -29,7 +30,7 @@ class Scan3D extends Component {
   
       let heroBannerDetails =
       {
-        bgImgPath: '/assets/images/landing/scan3d.jpg',
+        bgImgPath: assetUrl('assets/images/landing/scan3d.jpg'),
         header: '<strong>3D Scanning Service</strong>Engineering tomorrow\'s industry through today\'s innovation',
       };
   

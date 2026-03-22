@@ -1,5 +1,6 @@
 import React ,  { Component } from "react";
 import BaseLanding from '../../base-landing/en/QuoteLanding';
+import assetUrl from '../../assetUrl';
 
 
 class ArchitectureIndustry extends Component {
@@ -21,7 +22,7 @@ class ArchitectureIndustry extends Component {
   
       let heroBannerDetails =
       {
-        bgImgPath: '/assets/images/landing/architecture1.jpg',
+        bgImgPath: assetUrl('assets/images/landing/architecture1.jpg'),
         header: '<strong>Your creative Partner</strong>Planning tomorrow\'s industry through today\'s innovation.',
       }
   
