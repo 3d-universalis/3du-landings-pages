@@ -1,11 +1,10 @@
-import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './index.scss';
 import Home from './Home';
-import ArchitectureEN from './industries/en/Architecture';
-import ArchitectureFR from './industries/fr/Architecture';
+import ArchitectureEN from './industries/en/architecture';
+import ArchitectureFR from './industries/fr/architecture';
 import ThreeDPrintingFR from './industries/fr/ThreeDPrinting';
 import ThreeDPrintingEN from './industries/en/ThreeDPrinting';
 import Scan3dFR from './industries/fr/Scan3D';
